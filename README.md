@@ -65,7 +65,7 @@ mongoose
   .catch((err) => console.log(err));
   
 ```
-To run the project locally use the following command
+To run the project locally, use the following command
 
 ```
 npm start
