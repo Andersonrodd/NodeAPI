@@ -5,7 +5,7 @@
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+  - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
 - [Author](#author)
