@@ -15,11 +15,11 @@ RESTful API with Node js for study and practice!
 
 ### Screenshot
 
-![Create](./screenshots/print%20full%20screen.png)
-![Read](./screenshots/print%20mobile.png)
-![Read](./screenshots/print%20mobile.png)
-![Update](./screenshots/print%20mobile.png)
-![Delete](./screenshots/print%20mobile.png)
+![Create](./screenshots/Create.png)
+![Read - ALL](./screenshots/Read-ALL.png)
+![Read - by ID](./screenshots/Read-byID.png)
+![Update](./screenshots/Update.png)
+![Delete](./screenshots/Delete.png)
 
 ## My process
 -Setup of packages(express, nodemon and mongoose)
