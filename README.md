@@ -34,6 +34,27 @@ RESTful API with Node js for study and practice!
 - Mongoose
 - MongoDB
 
+## Usage
+
+```
+// Set your MongoDB user in index.js file 
+
+const DB_USER = "";
+const DB_PASSWORD = encodeURIComponent("");
+
+// Set your APICluster to connect to your Database
+mongoose
+  .connect(
+    `mongodb+srv://${DB_USER}:${DB_PASSWORD}@apicluster.ak7bzyw.mongodb.net/?retryWrites=true&w=majority`
+  )
+  .then(() => {
+    console.log("Conected");
+    app.listen(3000);
+  })
+  .catch((err) => console.log(err));
+
+```
+
 ## Author
 
 - LinkedIn - [Anderson Melo](https://www.linkedin.com/in/anderson-melo-3aaa94198/)
