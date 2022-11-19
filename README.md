@@ -6,6 +6,7 @@
   - [Screenshot](#screenshot)
   - [My process](#my-process)
   - [Built with](#built-with)
+  - [Usage](#usage)
 - [Author](#author)
 
 ## Overview
@@ -41,11 +42,13 @@ RESTful API with Node js for study and practice!
 
 const DB_USER = "";
 const DB_PASSWORD = encodeURIComponent("");
+const YourDatabaseURLHere = "";
 
 // Set your APICluster to connect to your Database
+
 mongoose
   .connect(
-    `mongodb+srv://${DB_USER}:${DB_PASSWORD}@apicluster.ak7bzyw.mongodb.net/?retryWrites=true&w=majority`
+    `mongodb+srv://${DB_USER}:${DB_PASSWORD}@apicluster.{{YourDatabaseURLHere}}`
   )
   .then(() => {
     console.log("Conected");
@@ -58,4 +61,3 @@ mongoose
 ## Author
 
 - LinkedIn - [Anderson Melo](https://www.linkedin.com/in/anderson-melo-3aaa94198/)
-- Frontend Mentor - [@Andersonrodd](https://www.frontendmentor.io/profile/Andersonrodd)
