@@ -1,4 +1,4 @@
-# Simple Rest API
+# Simple RESTful API
 
 ## Table of contents
 
